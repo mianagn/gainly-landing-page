@@ -119,7 +119,7 @@ const Hero: React.FC = () => {
           titleComponent={titleComponent}
         >
           <motion.img
-            src="/heroImg.jpeg"
+            src={`${process.env.PUBLIC_URL || ''}/heroImg.jpeg`}
             alt="Gainly Dashboard showing financial management interface with charts and data visualization"
             height={720}
             width={1400}

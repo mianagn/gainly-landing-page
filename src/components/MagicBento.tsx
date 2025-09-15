@@ -1,3 +1,4 @@
+
 import { useRef, useEffect, useState, useCallback, ReactNode } from "react";
 import { gsap } from "gsap";
 import { X } from "lucide-react";
@@ -21,63 +22,63 @@ const cardData: CardData[] = [
     title: "Dashboard",
     description: "Get a comprehensive overview of your financial health with real-time insights.",
     label: "Overview",
-    backgroundImage: "/dashboard.jpeg"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/dashboard.jpeg`
   },
   {
     color: "#0f172a", // slate-900
     title: "Add Transactions",
     description: "Easily record and categorize your income and expenses.",
     label: "Tracking",
-    backgroundImage: "/addtransaction.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/addtransaction.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Budget",
     description: "Create personalized budgets and track your spending.",
     label: "Planning",
-    backgroundImage: "/budget.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/budget.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Analytics",
     description: "Dive deep into your financial data with powerful analytics.",
     label: "Insights",
-    backgroundImage: "/analytics.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/analytics.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "AI Assistant",
     description: "Get personalized financial advice from our intelligent AI.",
     label: "Intelligence",
-    backgroundImage: "/chatbot.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/chatbot.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Investment",
     description: "Track your portfolio performance and make informed decisions.",
     label: "Growth",
-    backgroundImage: "/investments.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/investments.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Savings",
     description: "Set and achieve your savings goals with smart tracking.",
     label: "Goals",
-    backgroundImage: "/savings.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/savings.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Debts",
     description: "Manage and track your debts with smart strategies.",
     label: "Management",
-    backgroundImage: "/debts.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/debts.png`
   },
   {
     color: "#0f172a", // slate-900
     title: "Profile",
     description: "Customize your experience with personal settings.",
     label: "Personal",
-    backgroundImage: "/user.png"
+    backgroundImage: `${process.env.PUBLIC_URL || ''}/user.png`
   }
 ];
 
