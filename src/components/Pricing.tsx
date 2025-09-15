@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Zap, Shield, Star } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const Pricing: React.FC = () => {
   const [isOneTime, setIsOneTime] = useState(false);

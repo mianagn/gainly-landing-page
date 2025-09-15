@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MessageCircle, Clock, HelpCircle } from 'lucide-react';
+// Removed unused imports
 
 const CTA: React.FC = () => {
   const [formData, setFormData] = useState({

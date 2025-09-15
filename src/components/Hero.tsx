@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
-import InteractiveBackground from './InteractiveBackground';
+// Removed unused import
 import { ContainerScroll } from './ContainerScrollAnimation';
 
 const Hero: React.FC = () => {

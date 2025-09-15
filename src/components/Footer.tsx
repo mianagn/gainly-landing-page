@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Shield, Heart } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { IconTrendingUp } from '@tabler/icons-react';
 
 const Footer: React.FC = () => {

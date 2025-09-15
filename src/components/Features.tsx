@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles } from 'lucide-react';
+// Removed unused import
 import MagicBento from './MagicBento';
 
 const Features: React.FC = () => {
