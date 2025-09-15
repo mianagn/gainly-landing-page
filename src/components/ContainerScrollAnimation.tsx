@@ -82,9 +82,8 @@ export const Card = ({
       style={{
         rotateX: rotate,
         scale,
-        boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.05)",
       }}
-      className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border border-emerald-400/20 p-2 md:p-6 backdrop-blur-xl rounded-[30px] relative overflow-hidden"
+      className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border border-emerald-400/20 p-2 md:p-6 backdrop-blur-xl rounded-[30px] relative overflow-hidden shadow-2xl"
       initial={{ opacity: 0, scale: 0.8, y: 50 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}

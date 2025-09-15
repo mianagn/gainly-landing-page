@@ -39,7 +39,7 @@ const CTA: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
             viewport={{ once: true }}
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-50 mb-8 leading-tight text-balance" style={{ lineHeight: '1.2' }}
+            className="text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-50 mb-8 leading-tight text-balance" style={{ lineHeight: '1.2' } as React.CSSProperties}
           >
             <motion.span
               initial={{ opacity: 0, y: 20 }}
