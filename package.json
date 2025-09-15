@@ -2,7 +2,7 @@
   "name": "gainly-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mianagn.github.io/gainly-landing-page",
+  "homepage": ".",
   "dependencies": {
     "@react-three/drei": "^10.7.3",
     "@react-three/fiber": "^9.3.0",

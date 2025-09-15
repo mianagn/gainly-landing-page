@@ -63,7 +63,7 @@ const InteractiveBackground: React.FC = () => {
           style={{
             left: `${20 + (i * 15)}%`,
             top: `${30 + (i * 10)}%`,
-          } as React.CSSProperties}
+          }}
           animate={{
             y: [0, -100, 0],
             opacity: [0, 1, 0],
